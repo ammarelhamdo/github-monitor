@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")",
+      "Bash(npm run *)",
+      "Bash(Move-Item \"c:\\\\Users\\\\ammar\\\\Desktop\\\\check-my-repos\\\\src\\\\middleware.ts\" \"c:\\\\Users\\\\ammar\\\\Desktop\\\\check-my-repos\\\\src\\\\proxy.ts\")",
+      "PowerShell(Move-Item \"c:\\\\Users\\\\ammar\\\\Desktop\\\\check-my-repos\\\\src\\\\middleware.ts\" \"c:\\\\Users\\\\ammar\\\\Desktop\\\\check-my-repos\\\\src\\\\proxy.ts\")",
+      "Bash(npx tsc *)"
+    ]
+  }
+}

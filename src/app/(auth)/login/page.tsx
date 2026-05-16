@@ -79,10 +79,10 @@ export default function LoginPage() {
         </form>
       </div>
 
-      <p className="text-center text-gray-600 text-xs mt-4">
+      {/* <p className="text-center text-gray-600 text-xs mt-4">
         First time? POST to{' '}
         <code className="text-gray-500">/api/seed</code> to create the admin account.
-      </p>
+      </p> */}
     </div>
   )
 }
